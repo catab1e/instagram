@@ -1,0 +1,13 @@
+.stories{
+    width: 40%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    overflow-x: auto;
+
+
+    background-color: rgb(79, 79, 79);
+}

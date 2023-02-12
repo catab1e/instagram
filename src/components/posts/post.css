@@ -1,0 +1,42 @@
+.post{
+    width: 100%;
+    height: 800px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    color: white;
+
+    background-color: tomato;
+}
+
+.prof-info{
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+
+    background-color: aquamarine;
+}
+
+.prof-info img{
+    width: 30px;
+    height: 30px;
+
+    border-radius: 15px;
+}
+
+.post--img{
+    width: 100%;
+    height: 70%;
+}
+
+.post--icons{
+    width: 100%;
+    height: 8%;
+
+    background-color: blue;
+}
