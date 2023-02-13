@@ -1,12 +1,21 @@
 .story{
-    width: 70px;
+    width: 60px;
     height: 70px;
 
     margin: 0 1% 0 1%;
 
+    color: white;
+    text-align: center;
+}
+
+.story--circle{
+    width: 60px;
+    height: 60px;
+
+
     flex: 0 0 auto;
 
-    border-radius: 35px;
+    border-radius: 30px;
 
     background-color: aqua;
 }

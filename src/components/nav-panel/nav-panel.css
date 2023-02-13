@@ -1,0 +1,17 @@
+.nav-panel{
+    width: 100vw;
+    height: 60px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+    font-size: 20px;
+
+    background-color: blue;
+}

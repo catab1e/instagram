@@ -4,7 +4,10 @@ import "./story.css"
 const Story = () => {
     return (
         <div className='story'>
-            <img src="" alt="" />
+            <div className='story--circle'>
+                <img src="" alt="" />
+            </div>
+            <p>name</p>
         </div>
     );
 };
