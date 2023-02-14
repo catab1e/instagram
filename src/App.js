@@ -6,7 +6,7 @@ import MainPage from "./components/pages/MainPage";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <MainPage />
       <NavPanel />
     </>

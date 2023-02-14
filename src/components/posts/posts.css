@@ -2,6 +2,12 @@
     width: 515px;
     height: auto;
 
+    /* padding-top: 90px; */
+
+    position: relative;
+    left: 30%;
+    transform-origin: right;
+
     display: flex;
     justify-content: center;
     align-items: center;
