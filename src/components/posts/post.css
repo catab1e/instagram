@@ -10,8 +10,6 @@
   flex-direction: column;
 
   color: white;
-
-  background-color: tomato;
 }
 
 .post > div {
@@ -26,11 +24,22 @@
   align-items: center;
 }
 
-.prof-info img {
-  width: 30px;
-  height: 30px;
+.prof-info__img {
+  width: 40px;
+  height: 40px;
 
-  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  border-radius: 20px;
+}
+
+.prof-info__img img{
+  width: 100%;
+  height: auto;
 }
 
 .post--img-container{
@@ -58,8 +67,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  background-color: blue;
 }
 
 .post-icons__left {
@@ -83,8 +90,6 @@
 .post--descr {
   width: 100%;
   height: auto;
-
-  background-color: coral;
 }
 
 

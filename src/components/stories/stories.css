@@ -1,16 +1,24 @@
 .stories{
-    width: 515px;
-    height: 110px;
+    width: 480px;
+    height: 100px;
 
     /* position: relative; */
     /* top: 8vh; */
 
     display: flex;
     align-items: center;
+
+    overflow: hidden;
+}
+
+
+.stories__inner{
+    width: 100%;
+    height: 140px;
+
+    display: flex;
+    align-items: center;
+
     flex-wrap: nowrap;
-
     overflow-x: auto;
-    
-
-    background-color: rgb(79, 79, 79);
 }

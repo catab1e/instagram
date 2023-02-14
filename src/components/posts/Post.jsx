@@ -2,16 +2,18 @@ import React from "react";
 import "./post.css";
 import logo2 from "../../assets/logo2.png";
 import niss from "../../assets/niss.jpg";
-import like from "../../assets/icons/like.svg";
-import comm from "../../assets/icons/comm.svg";
-import strelka from "../../assets/icons/strelka.svg";
-import zakladka from "../../assets/icons/zakladka.svg";
+import {ReactComponent as LikeIcon} from "../../assets/icons/like.svg";
+import {ReactComponent as CommIcon} from "../../assets/icons/comm.svg";
+import {ReactComponent as StrelkaIcon} from "../../assets/icons/strelka.svg";
+import {ReactComponent as ZakladkaIcon} from "../../assets/icons/zakladka.svg";
 
 const Post = (props) => {
   return (
     <div className="post">
       <div className="prof-info">
-        <img src={logo2} alt="" />
+        <div className="prof-info__img">
+            <img src={niss} alt="" />
+        </div>
         <h3 className="txt">Name</h3>
       </div>
 
@@ -21,13 +23,13 @@ const Post = (props) => {
 
       <div className="post--icons">
         <div className="post-icons__left">
-          <img className="icons" src={like} alt="" />
-          <img className="icons" src={comm} alt="" />
-          <img className="icons" src={strelka} alt="" />
+          <LikeIcon className="icons" width="32px" height="32px"/>
+          <CommIcon className="icons" width="32px" height="32px"/>
+          <StrelkaIcon className="icons" width="32px" height="32px"/>
         </div>
 
         <div className="post-icons__right">
-          <img className="icons" src={zakladka} alt="" />
+          <ZakladkaIcon className="icons" width="32px" height="32px"/>
         </div>
       </div>
 

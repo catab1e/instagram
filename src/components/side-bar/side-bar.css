@@ -1,10 +1,87 @@
 .side-bar{
-    width: 250px;
+    width: 245px;
     height: 100vh;
 
     position: fixed;
     top: 0%;
     left: 0%;
 
-    background-color: cornflowerblue;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    flex-direction: column;
+
+    border-right: 1px solid rgb(68, 68, 68);
+}
+
+.side-bar__logo{
+    width: 80%;
+    height: 80px;
+}
+
+.logo{
+    padding-top: 25px;
+
+    color: white;
+    font-family: 'Grand Hotel', cursive;
+}
+
+
+.side-bar__panel{
+    width: 90%;
+    height: 440px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.panel__item{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+.panel__item:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+.item__txt{
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 7px;
+}
+
+
+.panel__more{
+    width: 90%;
+    height: 50px;
+
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 25px;
+
+    padding-left: 10px;
+
+    transition: 0.3s;
+}
+
+.panel__more:hover{
+    background-color: rgb(15, 15, 15);
 }

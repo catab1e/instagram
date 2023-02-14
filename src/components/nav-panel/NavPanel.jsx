@@ -1,20 +1,20 @@
 import React from 'react';
 import "./nav-panel.css"
-import secbox from "../../assets/icons/secbox.svg"
-import browser from "../../assets/icons/browser.svg"
-import profile from "../../assets/icons/profile.svg"
-import plus from "../../assets/icons/plus.svg"
-import message from "../../assets/icons/message.svg"
+import {ReactComponent as SecboxIcon} from "../../assets/icons/secbox.svg"
+import {ReactComponent as BrowserIcon} from "../../assets/icons/browser.svg"
+import {ReactComponent as ProfileIcon} from "../../assets/icons/profile.svg"
+import {ReactComponent as PlusIcon} from "../../assets/icons/plus.svg"
+import {ReactComponent as MessageIcon} from "../../assets/icons/message.svg"
 
 
 const NavPanel = () => {
     return (
         <div className='nav-panel'>
-            <span><img className='icons' src={secbox} alt="" /></span>
-            <span><img className='icons' src={browser} alt="" /></span>
-            <span><img className='icons' src={plus} alt="" /></span>
-            <span><img className='icons' src={message} alt="" /></span>
-            <span><img className='icons' src={profile} alt="" /></span>
+            <span><SecboxIcon className='icons' width="32px" height="32px" /></span>
+            <span><BrowserIcon className='icons' width="32px" height="32px" /></span>
+            <span><PlusIcon className='icons' width="32px" height="32px" /></span>
+            <span><MessageIcon className='icons' width="32px" height="32px" /></span>
+            <span><ProfileIcon className='icons' width="32px" height="32px" /></span>
         </div>
     );
 };
