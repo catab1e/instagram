@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./side-bar.css"
 import { ReactComponent as HomeIcon } from "../../assets/icons/panel-icons/home.svg";
 import { ReactComponent as SearchIcon } from "../../assets/icons/panel-icons/search.svg";
@@ -8,8 +8,12 @@ import { ReactComponent as ProfileIcon } from "../../assets/icons/profile.svg";
 import { ReactComponent as MessageIcon } from "../../assets/icons/message.svg";
 import { ReactComponent as BrowserIcon } from "../../assets/icons/browser.svg";
 import { ReactComponent as PlusIcon } from "../../assets/icons/plus.svg";
+import ModalCreate from '../modal/modal-create/ModalCreate.';
 
 const SideBar = () => {
+
+    const [modalActive , setModalActive] = useState(false)
+
     return (
         <div className='side-bar'>
             <div className='side-bar__logo'>
@@ -47,7 +51,8 @@ const SideBar = () => {
                     <p className='item__txt'>Notifications</p>
                 </div>
 
-                <div className='panel__item'>
+                <div className='panel__item' onClick={() => setModalActive(true)} >
+                    <ModalCreate active={modalActive} setActive={setModalActive} />
                     <span><PlusIcon className="icons" width="32px" height="32px" /></span>
                     <p className='item__txt'>Create</p>
                 </div>

@@ -5,6 +5,7 @@
     position: fixed;
     top: 0%;
     left: 0%;
+    z-index: 999;
 
     display: flex;
     /* justify-content: center; */
@@ -51,6 +52,8 @@
     border-radius: 25px;
 
     transition: 0.3s;
+
+    cursor: pointer;
 }
 
 .panel__item:hover{

@@ -1,13 +1,13 @@
 import React from 'react';
 import "./story.css"
 
-const Story = (props) => {
+const Story = (item) => {
     return (
         <div className='story'>
             <div className='story--circle'>
-                <img src={props.src} alt="" />
+                <img src={item.src} alt="" />
             </div>
-            <p>name</p>
+            <p>{item.name}</p>
         </div>
     );
 };
