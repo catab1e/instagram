@@ -1,15 +1,16 @@
-import NavPanel from "./components/nav-panel/NavPanel";
-import Navbar from "./components/navbar/Navbar";
 import MainPage from "./components/pages/MainPage";
+import SideBar from "./components/side-bar/SideBar";
 import UserContextProvider from "./contexts/UserContext";
+import MainRoutes from "./MainRoutes";
 
 
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
       <UserContextProvider>
-        <MainPage />
+        <SideBar />
+        <MainRoutes />
+        {/* <MainPage /> */}
       </UserContextProvider>
     </>
   );

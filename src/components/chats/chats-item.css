@@ -1,0 +1,33 @@
+.chats-item {
+  width: 100%;
+  height: auto;
+
+  margin-top: 8px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+d}
+
+.chats-item__img {
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  border-radius: 30px;
+}
+
+.chats-item__img img {
+  width: 100%;
+  height: auto;
+}
+
+.chats-item__info {
+  width: 75%;
+  height: 70%;
+}
