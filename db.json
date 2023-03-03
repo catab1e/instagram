@@ -1,28 +1,43 @@
 {
-    "media":[
-
-    ],
-    "users": [
-        {
-            "id": 1,
-            "name": "sasha",
-            "photo": "https://thumbs.dreamstime.com/b/book-nice-pic-beautiful-cute-se-kagaj-photo-indian-science-166875161.jpg",
-            "posts": {
-                "post-likes": 0,
-                "post-comments": "",
-                "post-id": 0,
-                "post-p": 11
-            }
-        },
-        {
-            "id":2,
-            "name": "petya",
-            "photo": "https://thumbs.dreamstime.com/b/book-nice-pic-beautiful-cute-se-kagaj-photo-indian-science-166875161.jpg"
-        },
-        {
-            "id": 3,
-            "name": "_sary_",
-            "photo": "https://images.unsplash.com/photo-1585170466274-9e8dc02e14d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXdlc29tZSUyMHBpY3xlbnwwfHwwfHw%3D&w=1000&q=80"
-        }
-    ]
+  "media": [
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "post-comments": "",
+      "post-id": 0,
+      "post-p": 11
+    }
+  ],
+  "postLikes": [
+    {
+      "postId": 1,
+      "userId": 2
+    }
+  ],
+  "postComments": [
+    {
+      "postId": 1,
+      "userId": 2,
+      "text": ""
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "sasha",
+      "photo": "https://thumbs.dreamstime.com/b/book-nice-pic-beautiful-cute-se-kagaj-photo-indian-science-166875161.jpg"
+    },
+    {
+      "id": 2,
+      "name": "petya",
+      "photo": "https://thumbs.dreamstime.com/b/book-nice-pic-beautiful-cute-se-kagaj-photo-indian-science-166875161.jpg"
+    },
+    {
+      "id": 3,
+      "name": "_sary_",
+      "photo": "https://images.unsplash.com/photo-1585170466274-9e8dc02e14d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXdlc29tZSUyMHBpY3xlbnwwfHwwfHw%3D&w=1000&q=80"
+    }
+  ]
 }
